@@ -1,0 +1,23 @@
+.h1 {
+  font-family: fantasy;
+  font-weight: 900;
+}
+
+.h3 {
+  font-family: fantasy;
+  font-weight: 500;
+  align-self: center;
+}
+
+.banner_img {
+  height: 100px;
+  width: 150px;
+}
+
+.column {
+  width: 95%;
+}
+
+.a {
+  font-size: medium;
+}
