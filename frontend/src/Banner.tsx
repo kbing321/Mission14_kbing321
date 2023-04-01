@@ -2,6 +2,7 @@ import React from 'react';
 import styles from './Banner.module.css';
 import { Link } from 'react-router-dom';
 
+//shared banner at the top of each page, including j.hilton pic, website title, and navbar
 function TopBanner(props: any) {
   return (
     <>

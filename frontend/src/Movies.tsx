@@ -4,6 +4,7 @@ import styles from './Banner.module.css';
 
 const movies = data.MovieData;
 
+//table of the movies page
 function MovieList() {
   return (
     <>

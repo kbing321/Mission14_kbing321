@@ -1,6 +1,7 @@
 import TopBanner from './Banner';
 import styles from './Banner.module.css';
 
+//podcasts page with link to BaconSale
 function BaconSale() {
   return (
     <>

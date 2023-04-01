@@ -1,6 +1,7 @@
 import { Outlet, Link } from 'react-router-dom';
 import TopBanner from '../Banner';
 
+//layout for each page
 const Layout = () => {
   return (
     <>

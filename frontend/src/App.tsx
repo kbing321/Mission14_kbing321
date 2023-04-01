@@ -5,6 +5,7 @@ import Home from './Home';
 import MovieList from './Movies';
 import BaconSale from './Podcasts';
 
+//configures the routing for the navbar to work
 function App() {
   return (
     <BrowserRouter>

@@ -1,5 +1,6 @@
 import styles from './Banner.module.css';
 
+//home page with description of website
 function Home() {
   return (
     <>
