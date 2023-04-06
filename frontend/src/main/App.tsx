@@ -2,7 +2,7 @@ import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Layout from './Layout';
 import Home from '../pages/Home';
-import MovieList from '../pages/Movies';
+import MovieList from '../movie/Movies';
 import BaconSale from '../pages/Podcasts';
 
 //configures the routing for the navbar to work
