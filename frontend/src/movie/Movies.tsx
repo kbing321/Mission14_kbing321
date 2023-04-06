@@ -6,6 +6,7 @@ import { useEffect, useState } from 'react';
 function MovieList() {
   const [movieData, setMovieData] = useState<Movie[]>([]);
 
+  //keep api from being called over and over again
   useEffect(() => {
     const getMovies = async () => {
       const response = await fetch('https://localhost:4000/movie');
