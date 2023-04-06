@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Mission14_API.Data;
+using System.Linq;
 
 namespace Mission14_API.Controllers
 {
@@ -13,7 +14,9 @@ namespace Mission14_API.Controllers
         }
         public IEnumerable<MovieInfo> Get()
         {
-            return context.Movies.ToArray();
+            return context.Movies.ToArray()
+                .Where(p => (p.Edited == "Yes"))
+                .OrderBy(p => p.Title);
         }
 
         /*public void Post(MovieInfo)
